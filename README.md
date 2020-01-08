@@ -6,16 +6,27 @@ La altura del punto puede proceder de un atributo de la capa bien una altura igu
 
 #Parámetros
 Puntos = "Z:/Proxectos/589_astillero_4_0/5_gis/shp/20180529_Astillero_nuevo/Viewshed_puntos.shp"
+
 MDE = "Z:/Proxectos/589_astillero_4_0/5_gis/paisaje/LIDAR_1km/MDE_cota.tif"
+
 Output = "Z:/Proxectos/589_astillero_4_0/5_gis/paisaje/Viewshed_provisional_MDE_cota6_15km"
+
 AltAtr = "Altura"
+
 AltElem = int(100)
+
 AltObs = float(1.8)
+
 Distancia = int(1000)
+
 Memoria = int(2000)
+
 CurvTer = bool(1)
+
 RefAtm = bool(1)
+
 Acumulado = bool(1)
+
 Visibilidad01 = bool(1)
 
 ## Condiciones:
